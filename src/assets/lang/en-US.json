@@ -1,0 +1,15 @@
+{
+  "init": {
+    "app_name": "Finnance"
+  },
+  "groups": {
+    "title": "Groups",
+    "form": {
+      "title": "Register groups",
+      "description": "Payment models for record characterization"
+    }
+  },
+  "tags": {
+    "title": "Tags"
+  }
+}

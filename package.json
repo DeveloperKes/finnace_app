@@ -1,7 +1,7 @@
 {
   "name": "finnance_app",
   "version": "0.0.1",
-  "author": "Ionic Framework",
+  "author": "Kevin Sanchez",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",

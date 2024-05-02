@@ -1,0 +1,16 @@
+{
+  "init": {
+    "app_name": "Finanzas",
+    "introduction": "Maneja tu dinero"
+  },
+  "groups": {
+    "title": "Grupos",
+    "form": {
+      "title": "Registro de grupos",
+      "description": "Modelos de pago para la caracterización de registros"
+    }
+  },
+  "tags": {
+    "title": "Etiquetas"
+  }
+}
