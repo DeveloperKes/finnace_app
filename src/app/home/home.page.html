@@ -12,14 +12,15 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title>{{'title' | lang: translate}}</ion-title>
+      <ion-title>{{'app_name' | lang: translate}}</ion-title>
     </ion-toolbar>
   </ion-header>
   <ion-content class="ion-padding">
-    <p> {{'description'| lang: translate}}</p>
+    <p> {{'introduction'| lang: translate}}</p>
     <ion-button (click)="toggleLang()">
       <ion-ripple-effect></ion-ripple-effect>
       Alternar idioma
     </ion-button>
+    <app-header></app-header>
   </ion-content>
 </div>

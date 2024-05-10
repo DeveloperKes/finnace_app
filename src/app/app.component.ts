@@ -9,5 +9,10 @@ import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
   imports: [IonApp, IonRouterOutlet],
 })
 export class AppComponent {
-  constructor() { }
+  constructor() {
+    if (!localStorage.getItem('lang') || !localStorage.getItem('region')) {
+      localStorage.setItem('lang', 'es');
+      localStorage.setItem('region', 'CO');
+    }
+  }
 }
